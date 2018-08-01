@@ -20,7 +20,7 @@ A collection of matrix transformation algorithms.
 
 `npm test`
 
-### Standard Style & Unit Tests & Coverage
+### Unit Tests & Coverage
 
 `npm run cover`
 
