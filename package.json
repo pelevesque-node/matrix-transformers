@@ -15,6 +15,7 @@
     "url": "git+https://github.com/pelevesque/matrix-transformers.git"
   },
   "keywords": [
+    "math",
     "matrix",
     "transform",
     "transformation",
