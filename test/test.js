@@ -4,7 +4,7 @@
 const expect = require('chai').expect
 const matrixTransformers = require('../index')
 
-describe('#matrix-transformers', () => {
+describe('#matrixTransformers', () => {
   describe('#rotate90()', () => {
     it('should rotate a square matrix 90 degrees clockwise', () => {
       const matrix = [
