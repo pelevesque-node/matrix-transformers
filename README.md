@@ -8,7 +8,7 @@ A collection of matrix transformation algorithms.
 
 ## Node Repository
 
-[https://www.npmjs.com/package/@pelevesque/matrix-transformers](https://www.npmjs.com/package/@pelevesque/matrix-transformers)
+https://www.npmjs.com/package/@pelevesque/matrix-transformers
 
 ## Installation
 
