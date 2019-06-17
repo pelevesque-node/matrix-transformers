@@ -26,19 +26,19 @@ https://www.npmjs.com/package/@pelevesque/matrix-transformers
 
 ## Usage
 
-#### Requiring the Module
+### Requiring the Module
 
 ```js
 const matrixTransformers = require('@pelevesque/matrix-transformers')
 ```
 
-#### Requiring a Particular Transformation
+### Requiring a Particular Transformation
 
 ```js
 const rotateMatrixClockwise = require('@pelevesque/matrix-transformers').rotate90
 ```
 
-#### Available Transformations
+### Available Transformations
 
 - rotate90
 - rotate180
@@ -46,7 +46,7 @@ const rotateMatrixClockwise = require('@pelevesque/matrix-transformers').rotate9
 - reflectHorizontally
 - reflectVertically
 
-#### Examples
+### Examples
 
 ```js
 const matrix = [
@@ -55,7 +55,8 @@ const matrix = [
   [7, 8, 9]
 ]
 const transformed = matrixTransformers.reflectHorizontally(matrix)
-// transformed equals array below
+
+// result
 transformed = [
   [3, 2, 1],
   [6, 5, 4],
@@ -70,7 +71,8 @@ const matrix = [
   [5, 6]
 ]
 const transformed = matrixTransformers.rotate270(matrix)
-// transformed equals array below
+
+// result
 transformed = [
   [2, 4, 6],
   [1, 3, 5]
